@@ -264,7 +264,7 @@ const LogoList = () => {
         </div>
         <div className="">
           <Image
-            src={"/images/brands/view TECH.png"}
+            src={"/images/brands/VT.png"}
             width={180}
             height="36"
             alt="forbes logo"
