@@ -43,21 +43,21 @@ const Home = () => {
           <div data-aos="fade-up">
             <FeatureCard
               title="Planing"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              description="Deciding beforehand what to do and how to do it. One of the main managerial responsibilities is this. Before acting, the manager must decide how to approach a certain task."
               icon={<FiFigma />}
             />
           </div>
           <div data-aos="fade-up">
             <FeatureCard
               title="Build"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              description="The consolidated parcel of land with all the improvements on it, including the Premises, which are part of the improvements. For tax reasons, the improvements are considered to be a component of the block and lot for the aforementioned property."
               icon={<FiBox />}
             />
           </div>
           <div data-aos="fade-up">
             <FeatureCard
               title="Ship"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              description="Emphasis on getting a 'full' package to market rather than releasing a basic, workable version of a product to get customer feedback."
               icon={<FiFigma />}
             />
           </div>

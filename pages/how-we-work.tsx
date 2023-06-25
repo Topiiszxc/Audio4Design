@@ -39,9 +39,7 @@ const HowWeWork = () => {
           <SectionSentence
             badge="STEP 01"
             title={`Let's talk about your company's problems first`}
-            paragraph={
-              'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '
-            }
+            paragraph={"Discuss the company's services, significant moments in its history, and elements of its mission and ideals that support your professional or personal objectives."}
           />
         </aside>
       </section>
@@ -53,7 +51,7 @@ const HowWeWork = () => {
           <SectionSentence
             badge="STEP 02"
             title={`Doing planning,  until everything is finished`}
-            paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+            paragraph="Planning lowers the likelihood of risk: Planning is a task that allows a manager to look ahead and anticipate changes. Planning takes into account the way to deal with changes and unforeseen consequences by establishing in advance the tasks that must be done. "
           />
         </aside>
         <aside className="w-full" data-aos="fade-up-left">
@@ -87,7 +85,7 @@ const HowWeWork = () => {
           <SectionSentence
             badge="STEP 03"
             title={`The project is complete`}
-            paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+            paragraph="Projects that: the first one satisfy business needs; second one are delivered and maintained on schedule; the third are delivered and maintained under budget; and the last are to provide the anticipated business value and return on investment are considered successful. "
           />
         </aside>
       </section>

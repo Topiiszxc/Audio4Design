@@ -11,7 +11,7 @@ const LogoList = () => {
       >
         <div className="">
           <Image
-            src={"/images/brands/ACER.png"}
+            src={"/images/brands/acer.jpg"}
             width={180}
             height="36"
             alt="github logo"
@@ -35,7 +35,7 @@ const LogoList = () => {
         </div>
         <div className="">
           <Image
-            src={"/images/brands/AUDIOTECSHNICA.png"}
+            src={"/images/brands/audiotechnica.png"}
             width={180}
             height="36"
             alt="forbes logo"
@@ -43,7 +43,7 @@ const LogoList = () => {
         </div>
         <div className="">
           <Image
-            src={"/images/brands/BETATHREE.jpg"}
+            src={"/images/brands/b03.png"}
             width={180}
             height="36"
             alt="github logo"
@@ -51,7 +51,7 @@ const LogoList = () => {
         </div>
         <div className="">
           <Image
-            src={"/images/brands/BOSE.png"}
+            src={"/images/brands/bosee.jpg"}
             width={180}
             height="36"
             alt="forbes logo"
@@ -60,7 +60,7 @@ const LogoList = () => {
         <LineDivider />
         <div className="">
           <Image
-            src={"/images/brands/CERWIN-VEGA.png"}
+            src={"/images/brands/cv.png"}
             width={180}
             height="36"
             alt="github logo"
@@ -68,7 +68,7 @@ const LogoList = () => {
         </div>
         <div className="">
           <Image
-            src={"/images/brands/DBX.png"}
+            src={"/images/brands/dd.png"}
             width={180}
             height="36"
             alt="forbes logo"
@@ -76,7 +76,7 @@ const LogoList = () => {
         </div>
         <div className="">
           <Image
-            src={"/images/brands/EPSON.png"}
+            src={"/images/brands/ep.jpg"}
             width={180}
             height="36"
             alt="forbes logo"
@@ -84,7 +84,7 @@ const LogoList = () => {
         </div>
         <div className="">
           <Image
-            src={"/images/brands/FENDER.png"}
+            src={"/images/brands/ff.png"}
             width={180}
             height="36"
             alt="github logo"
@@ -92,7 +92,7 @@ const LogoList = () => {
         </div>
         <div className="">
           <Image
-            src={"/images/brands/HITACHI.png"}
+            src={"/images/brands/hh.png"}
             width={180}
             height="36"
             alt="forbes logo"
@@ -100,7 +100,7 @@ const LogoList = () => {
         </div>
         <div className="">
           <Image
-            src={"/images/brands/JBL.png"}
+            src={"/images/brands/jj.png"}
             width={180}
             height="36"
             alt="github logo"
@@ -109,7 +109,7 @@ const LogoList = () => {
         <LineDivider />
         <div className="">
           <Image
-            src={"/images/brands/KONZERT.png"}
+            src={"/images/brands/kk.png"}
             width={180}
             height="36"
             alt="forbes logo"
@@ -117,7 +117,7 @@ const LogoList = () => {
         </div>
         <div className="">
           <Image
-            src={"/images/brands/MACKIE.png"}
+            src={"/images/brands/mm.png"}
             width={180}
             height="36"
             alt="github logo"
@@ -133,7 +133,7 @@ const LogoList = () => {
         </div>
         <div className="">
           <Image
-            src={"/images/brands/NEUTRIK.png"}
+            src={"/images/brands/nn.png"}
             width={180}
             height="36"
             alt="forbes logo"
@@ -141,7 +141,7 @@ const LogoList = () => {
         </div>
         <div className="">
           <Image
-            src={"/images/brands/P. AUDIO.png"}
+            src={"/images/brands/pp.png"}
             width={180}
             height="36"
             alt="forbes logo"
@@ -149,7 +149,7 @@ const LogoList = () => {
         </div>
         <div className="">
           <Image
-            src={"/images/brands/PEAVEY.jpg"}
+            src={"/images/brands/pq.png"}
             width={180}
             height="36"
             alt="forbes logo"
@@ -158,7 +158,7 @@ const LogoList = () => {
         <LineDivider />
         <div className="">
           <Image
-            src={"/images/brands/PHONIC.jpg"}
+            src={"/images/brands/po.png"}
             width={180}
             height="36"
             alt="forbes logo"
@@ -166,7 +166,7 @@ const LogoList = () => {
         </div>
         <div className="">
           <Image
-            src={"/images/brands/PIONEER.png"}
+            src={"/images/brands/pol.png"}
             width={180}
             height="36"
             alt="forbes logo"
@@ -174,7 +174,7 @@ const LogoList = () => {
         </div>
         <div className="">
           <Image
-            src={"/images/brands/POLKAUDIO.png"}
+            src={"/images/brands/pqw.png"}
             width={180}
             height="36"
             alt="forbes logo"
@@ -182,7 +182,7 @@ const LogoList = () => {
         </div>
         <div className="">
           <Image
-            src={"/images/brands/QSC.png"}
+            src={"/images/brands/qq.png"}
             width={180}
             height="36"
             alt="forbes logo"
@@ -207,7 +207,7 @@ const LogoList = () => {
         <LineDivider />
         <div className="">
           <Image
-            src={"/images/brands/SENNHEISER.png"}
+            src={"/images/brands/ss.png"}
             width={180}
             height="36"
             alt="forbes logo"
@@ -215,7 +215,7 @@ const LogoList = () => {
         </div>
         <div className="">
           <Image
-            src={"/images/brands/SHURE.png"}
+            src={"/images/brands/sh.png"}
             width={180}
             height="36"
             alt="forbes logo"
@@ -223,7 +223,7 @@ const LogoList = () => {
         </div>
         <div className="">
           <Image
-            src={"/images/brands/SOUNDCRAFT.png"}
+            src={"/images/brands/soo.png"}
             width={180}
             height="36"
             alt="forbes logo"
@@ -231,7 +231,7 @@ const LogoList = () => {
         </div>
         <div className="">
           <Image
-            src={"/images/brands/STRANDTZ.png"}
+            src={"/images/brands/st.png"}
             width={180}
             height="36"
             alt="forbes logo"
@@ -239,7 +239,7 @@ const LogoList = () => {
         </div>
         <div className="">
           <Image
-            src={"/images/brands/STUDIO MASTER.png"}
+            src={"/images/brands/stt.png"}
             width={180}
             height="36"
             alt="forbes logo"
@@ -247,7 +247,7 @@ const LogoList = () => {
         </div>
         <div className="">
           <Image
-            src={"/images/brands/SWISS TECH.png"}
+            src={"/images/brands/k3.png"}
             width={180}
             height="36"
             alt="forbes logo"
@@ -256,7 +256,7 @@ const LogoList = () => {
         <LineDivider />
         <div className="">
           <Image
-            src={"/images/brands/TOA.png"}
+            src={"/images/brands/tooa.png"}
             width={180}
             height="36"
             alt="forbes logo"
@@ -272,7 +272,7 @@ const LogoList = () => {
         </div>
         <div className="">
           <Image
-            src={"/images/brands/WHARFEDALE PRO.png"}
+            src={"/images/brands/whar.png"}
             width={180}
             height="36"
             alt="forbes logo"
@@ -280,7 +280,7 @@ const LogoList = () => {
         </div>
         <div className="">
           <Image
-            src={"/images/brands/YAMAHA.png"}
+            src={"/images/brands/yaa.png"}
             width={180}
             height="36"
             alt="forbes logo"
