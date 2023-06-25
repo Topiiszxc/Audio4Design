@@ -11,7 +11,7 @@ import { useForm, ValidationError } from "@formspree/react";
 import { showToast } from "components/molecules/Toast";
 const Quote = () => {
   const router = useRouter();
-  const [state, handleSubmit] = useForm("mnqyeezn");
+  const [state, handleSubmit] = useForm("xyyqgkek");
 
   useEffect(() => {
     if (state.succeeded) {
