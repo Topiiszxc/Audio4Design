@@ -13,208 +13,352 @@ const Project: React.FC = () => {
     num: string;
     category: string;
     title: string;
-    description: string;
     image: string;
   }
   const projectList: Project[] = [
     //Conference Systems
     {
       num: "1",
-      category: "Conference-Systems",
-      title: "Conference Room",
-      description: "A landing page for Products",
-      image: "/images/projects/compi.jpg",
+      category: "Conference-&-Discussion-System",
+      title: "Conference & Discussion System",
+      image: "/images/projects/CDS1.jpg",
     },
     //Equipment Racks/Cases
     {
       num: "2",
-      category: "Equipment-Racks-Cases",
-      title: "Equipment Racks/Cases",
-      description: "A landing page for Products",
+      category: "Electrical-&-Mechanical",
+      title: "Equipment Racks",
       image: "/images/projects/Q1.PNG",
     },
     //Radio Systems
     {
       num: "3",
-      category: "Radio-Systems",
-      title: "Radio Systems",
-      description: "A landing page for Products",
+      category: "Radio-System",
+      title: "Radio System",
       image: "/images/projects/RR.JPG",
     },
     //Video Projection system
     {
       num: "4",
-      category: "Video-Projection-Systems",
-      title: " Projection system",
-      description: "A landing page for Products",
-      image: "/images/projects/Projection.jfif",
+      category: "Video-Projection-System",
+      title: " Video Projection system",
+      image: "/images/projects/VPS1.jpg",
     },
     //Telephone & PABX Systems
     {
       num: "5",
-      category: "Telephone-PABX-Systems",
-      title: "Telephone & PABX Systems",
-      description: "A landing page for Products",
-      image: "/images/projects/Telephone.jpg",
+      category: "Telephone-PABX-System",
+      title: "Telephone & PABX System",
+      image: "/images/projects/pipi.jpg",
     },
     //Surveillance Cameras
     {
       num: "6",
-      category: "Surveillance-Cameras",
-      title: "Surveillance Cameras",
-      description: "A landing page for Products",
-      image: "/images/projects/Surveillance.jpg",
+      category: "CCTV-System-&-Surveillance-Cameras",
+      title: "CCTV System & Surveillance Cameras",
+      image: "/images/projects/xc.jpg",
     },
     //Speech Laboratory Systems
     {
       num: "7",
       category: "Speech-Laboratory",
       title: "Speech Laboratory Systems",
-      description: "A landing page for Products",
       image: "/images/projects/Laboratory.jpg",
     },
 
     //Intercom-Systems
     {
       num: "8",
-      category: "Intercom-Systems",
-      title: "Intercom Systems",
-      description: "A landing page for Products",
-      image: "/images/projects/Intercom.jpg",
+      category: "Intercom-System",
+      title: "Intercom System",
+      image: "/images/projects/iiii.jpg",
     },
 
     //Paging Power Amplifiers
     {
       num: "9",
-      category: "Paging-System-Amplifiers",
+      category: "Paging-System",
       title: "Paging System ",
-      description: "A landing page for Products",
-      image: "/images/projects/TOA.jpg",
+      image: "/images/projects/popoo.jpg",
     },
 
     //Specialize Speakers
     {
       num: "10",
-      category: "Specialized-Speakers",
-      title: "WaterProof Speakers",
-      description: "A landing page for Products",
-      image: "/images/projects/Weatherproof.jfif",
+      category: "Specialized-Speaker",
+      title: "WaterProof Speaker",
+      image: "/images/projects/oooo.jpg",
     },
     {
       num: "11",
-      category: "Specialized-Speakers",
-      title: "Ceiling Speakers",
-      description: "A landing page for Products",
+      category: "Specialized-Speaker",
+      title: "Ceiling Speaker",
       image: "/images/projects/Ceiling.jpg",
     },
 
     //Lighting-Systems
     {
       num: "12",
-      category: "Lighting-Systems",
-      title: "Lights",
-      description: "A landing page for Products",
-      image: "/images/projects/PAR1.JPG",
+      category: "Lighting-System-&-LED-Technology",
+      title: "Lighting System & LED Technology",
+      image: "/images/projects/l.jpg",
     },
     {
       num: "13",
-      category: "Lighting-Systems",
+      category: "Lighting-System-&-LED-Technology",
       title: "Light Controllers",
-      description: "A landing page for Products",
       image: "/images/projects/LG6.JPG",
     },
 
     //Fog Machine
     {
       num: "14",
-      category: "Fog-Machines",
-      title: " Fog Machine Simple Products",
-      description: "A Products description",
+      category: "Fog-Machine",
+      title: " Fog Machine",
       image: "/images/projects/FOOG.JPG",
     },
 
     //Professional-Sound-Systems
     {
       num: "15",
-      category: "Professional-Sound-Systems",
+      category: "Professional-Sound-System",
       image: "/images/projects/AMP1.JPG",
-      title: "Amplifiers",
-      description: "A Products description",
+      title: "Amplifier",
     },
     {
       num: "16",
-      category: "Professional-Sound-Systems",
+      category: "Professional-Sound-System",
       title: "Wireless System",
-      description: "A Products description",
       image: "/images/projects/wireless.webp",
     },
     {
       num: "17",
-      category: "Professional-Sound-Systems",
+      category: "Professional-Sound-System",
       title: "Wireless  Lectern",
-      description: "A Products description",
       image: "/images/projects/WirelessLecturn.jpg",
     },
     {
       num: "18",
-      category: "Professional-Sound-Systems",
-      title: "Portable P.A. System",
-      description: "A Products description",
-      image: "/images/projects/PortableSystem.jpg",
+      category: "Professional-Sound-System",
+      title: "P.A System",
+      image: "/images/projects/papa.jpg",
     },
     {
       num: "19",
-      category: "Professional-Sound-Systems",
-      title: "Audio Mixers",
-      description: "A Products description",
-      image: "/images/projects/mixers.jpeg",
+      category: "Professional-Sound-System",
+      title: "Audio Mixer",
+      image: "/images/projects/AD1.jpg",
     },
 
     //new item
     {
       num: "20",
-      category: "Specialized-Speakers",
+      category: "Specialized-Speaker",
       title: "Wall Speaker",
-      description: "A landing page for Products",
       image: "/images/projects/wall.jpg",
     },
 
     {
       num: "21",
-      category: "Led-Wall",
-      title: "LED WALL",
-      description: "A landing page for Products",
+      category: "LED-Category",
+      title: "LED Wall",
       image: "/images/projects/LED1.PNG",
     },
     {
       num: "22",
-      category: "Smart-Interactive-Tv",
-      title: "Smart Interactive Tv",
-      description: "A landing page for Products",
+      category: "Interactive-Devices",
+      title: "Interactive Display",
       image: "/images/projects/SM1.png",
     },
 
     {
       num: "23",
-      category: "Fire-Alarm-System",
-      title: "Fire Alarm System",
-      description: "A landing page for Products",
+      category: "Fire-System",
+      title: "Fire Detection Alarm System",
       image: "/images/projects/fire.jpeg",
     },
     {
       num: "24",
       category: "Window-Intercoms-System",
       title: "Window Intercoms",
-      description: "A landing page for Products",
       image: "/images/projects/IN1.jpg",
     },
 
     {
       num: "25",
-      category: "Professional-Sound-Systems",
-      title: "Micro Mixer",
-      description: "A Products description",
-      image: "/images/projects/MC1.jpg",
+      category: "Professional-Sound-System",
+      title: "Microphone Mixer",
+      image: "/images/projects/mmm.jpg",
+      
+    },
+
+    {
+      num: "26",
+      category: "LED-Category",
+      title: "LED Display Board",
+      image: "/images/projects/qa.jpg",
+      
+    },
+
+    {
+      num: "27",
+      category: "LED-Category",
+      title: "LED Calendar Alarm Wall/ Clock with Temperature",
+      image: "/images/projects/loo.jpg",
+      
+    },
+
+    {
+      num: "28",
+      category: "LED-Category",
+      title: "LED Electronic Scoreboard/ Bulletin Display Board",
+      image: "/images/projects/sp.jpg",
+      
+    },
+
+    {
+      num: "29",
+      category: "LED-Category",
+      title: "LED Digital Clock and Queuing System",
+      image: "/images/projects/q4.avif",
+      
+    },
+
+    {
+      num: "30",
+      category: "Fire-System",
+      title: "Fire Protection System",
+      image: "/images/projects/f1.jpg",
+    },
+
+    {
+      num: "31",
+      category: "Fire-System",
+      title: "Inert Gas Fire Suppresssion",
+      image: "/images/projects/a1.jpg",
+    },
+
+    {
+      num: "32",
+      category: "Interactive-Devices",
+      title: "Kiosk",
+      image: "/images/projects/k1.jpg",
+    },
+
+    {
+      num: "33",
+      category: "Interactive-Devices",
+      title: "Queuing System",
+      image: "/images/projects/dq.jpg",
+    },
+
+    {
+      num: "34",
+      category: "Interactive-Devices",
+      title: "Smart Whiteboard",
+      image: "/images/projects/w1.jpg",
+    },
+
+    {
+      num: "35",
+      category: "Interactive-Devices",
+      title: "Wireless Calling System",
+      image: "/images/projects/xv1.jpg",
+    },
+
+    {
+      num: "36",
+      category: "Electrical-&-Mechanical",
+      title: "Electrical Breaker",
+      image: "/images/projects/e1.jpg",
+    },
+
+    {
+      num: "37",
+      category: "Paging-System",
+      title: "Pipe in Music/ BGM System",
+      image: "/images/projects/bg1.png",
+    },
+
+    {
+      num: "38",
+      category: "Acoustic-Treatment-&-Installation",
+      title: "Acoustic Treatment & Installation",
+      image: "/images/projects/aq.jpg",
+    },
+
+    {
+      num: "39",
+      category: "Digital-Devices",
+      title: "Digital Time Zone Clocks",
+      image: "/images/projects/df.jpg",
+    },
+
+    {
+      num: "40",
+      category: "Digital-Devices",
+      title: "Digital Temperature/ Digital Timers",
+      image: "/images/projects/ds1.jpg",
+    },
+
+    {
+      num: "41",
+      category: "Interactive-Devices",
+      title: "Door Access",
+      image: "/images/projects/dr.jpg",
+    },
+
+    {
+      num: "42",
+      category: "Electrical-&-Mechanical",
+      title: "Supply/ Cabling of Voice and Data",
+      image: "/images/projects/da.jpg",
+    },
+
+    {
+      num: "43",
+      category: "Lighting-System-&-LED-Technology",
+      title: "Lighting Solution",
+      image: "/images/projects/sqq.jpg",
+    },
+
+    {
+      num: "44",
+      category: "LED-Category",
+      title: "Production Counter",
+      image: "/images/projects/cz.png",
+      
+    },
+
+    {
+      num: "45",
+      category: "LED-Category",
+      title: "LED Scrolling/ Running Message",
+      image: "/images/projects/la.jpg",
+      
+    },
+
+    {
+      num: "46",
+      category: "LED-Category",
+      title: "Foreign Currency Exchange Rate Board (FOREX)",
+      image: "/images/projects/mq.jpg",
+      
+    },
+
+    {
+      num: "47",
+      category: "Air-Ventilation-System",
+      title: "Air Ventilation System",
+      image: "/images/projects/av.jpg",
+      
+    },
+
+    {
+      num: "48",
+      category: "Ducting-Ventilation",
+      title: "Ducting Ventilation",
+      image: "/images/projects/a5.jpg",
       
     },
   ];
@@ -236,7 +380,7 @@ const Project: React.FC = () => {
         >
           <div className="text-center md:text-left">
             <PageSentence
-              badge="PROJECTS"
+              badge="PROJECTS/SERVICES OFFERED"
               title="We have  many amazing Products for your needs"
             />
           </div>
@@ -245,73 +389,93 @@ const Project: React.FC = () => {
           <Select
             onChange={handleCategoryChange}
             options={[
-              { label: "Conference Room", value: "Conference-Systems" },
-              { label: "Specialized Speakers", value: "Specialized-Speakers" },
+              { label: "Conference & Discussion System", value: "Conference-&-Discussion-System" },
+              { label: "Specialized Speaker", value: "Specialized-Speaker" },
               {
-                label: "System Amplifiers",
-                value: "Paging-System-Amplifiers",
+                label: "Paging System",
+                value: "Paging-System",
               },
               {
-                label: "Professional Sound Systems",
-                value: "Professional-Sound-Systems",
+                label: "Professional Sound System",
+                value: "Professional-Sound-System",
               },
               {
-                label: "Fog Machines",
-                value: "Fog-Machines",
+                label: "Fog Machine",
+                value: "Fog-Machine",
               },
               {
-                label: "Lighting Systems",
-                value: "Lighting-Systems",
+                label: "Lighting System & LED Technology",
+                value: "Lighting-System-&-LED-Technology",
               },
               {
-                label: "Intercom Systems",
-                value: "Intercom-Systems",
+                label: "Intercom System",
+                value: "Intercom-System",
               },
               {
                 label: "Speech Laboratory",
                 value: "Speech-Laboratory",
               },
               {
-                label: "Cctv",
-                value: "Surveillance-Cameras",
+                label: "CCTV System & Surveillance Cameras",
+                value: "CCTV-System-&-Surveillance-Cameras",
               },
               {
-                label: "Telephone & PABX Systems",
-                value: "Telephone-PABX-Systems",
+                label: "Telephone & PABX System",
+                value: "Telephone-PABX-System",
               },
               {
-                label: " Projection Systems",
-                value: "Video-Projection-Systems",
+                label: " Video Projection System",
+                value: "Video-Projection-System",
               },
               {
-                label: "Radio Systems",
-                value: "Radio-Systems",
+                label: "Radio System",
+                value: "Radio-System",
               },
               {
-                label: "Equipment Racks",
-                value: "Equipment-Racks-Cases",
+                label: "Electrical & Mechanical",
+                value: "Electrical-&-Mechanical",
               },
 
               {
-                label: "Led Wall",
-                value: "Led-Wall",
+                label: "LED Category",
+                value: "LED-Category",
               },
               {
-                label: "Smart Interactive Tv",
-                value: "Smart-Interactive-Tv",
+                label: "Interactive Devices",
+                value: "Interactive-Devices",
               },
               {
-                label: "Fire Alarm System",
-                value: "Fire-Alarm-System",
+                label: "Fire System",
+                value: "Fire-System",
               },
               {
                 label: "Window Intercoms System",
                 value: "Window-Intercoms-System",
               },
+              {
+                label: "Acoustic Treatment & Installation",
+                value: "Acoustic-Treatment-&-Installation",
+              },
+              {
+                label: "Digital Devices",
+                value: "Digital-Devices",
+              },
+              {
+                label: "Air Ventilation System",
+                value: "Air-Ventilation-System",
+              },
+              {
+                label: "Ducting Ventilation",
+                value: "Ducting-Ventilation",
+              },
             ]}
           />
         </aside>
       </section>
+      <br />
+      <br />
+      <br />
+      <br />
       <br />
       <br />
       <br />
@@ -333,9 +497,7 @@ const Project: React.FC = () => {
                 <ProjectCard
                   num={project.num}
                   title={project.title}
-                  description={project.description}
-                  image={project.image}
-                />
+                  image={project.image} description={""}                />
               </div>
             );
           })}
