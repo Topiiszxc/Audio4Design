@@ -239,7 +239,7 @@ const ProjectDetail = () => {
       description: "A touchscreen tablet computer that is bigger than a tablet, allowing users to access, manipulate, and interact with content directly on the screen.",
       image: "/images/projects/SM5.png",
       imageb: "/images/projects/SM3.jpg",
-      imagec: "/images/projects/SM4.avif",
+      imagec: "/images/projects/das.jpg",
     },
 
     {
@@ -256,9 +256,9 @@ const ProjectDetail = () => {
       id: "24",
       category: "Window-Intercoms-System",
       title: "Window Intercom System",
-      description: "A landing page for Products",
+      description: "When glass, a security screen, or other such barriers make it difficult to speak normally, provide unambiguous communication. Every system has a hearing loop facility, which facilitates communication for users of hearing aids.",
       image: "/images/projects/IN1.jpg",
-      imageb: "/images/projects/IN2.png",
+      imageb: "/images/projects/yu.jpg",
       imagec: "/images/projects/IN3.jpg",
     },
     
@@ -469,7 +469,7 @@ const ProjectDetail = () => {
       description: "It is possible to create an LED scrolling message display matrix by connecting all of the anodes to a microcontroller and the columns to a shift register (74LS164).",
       image: "/images/projects/laa.jpg",
       imageb: "/images/projects/laaa.jpg",
-      imagec: "/images/projects/wer.gif",
+      imagec: "/images/projects/ww.jpg",
     },
 
     {

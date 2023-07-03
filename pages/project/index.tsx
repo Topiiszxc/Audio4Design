@@ -220,7 +220,7 @@ const Project: React.FC = () => {
       num: "29",
       category: "LED-Category",
       title: "LED Digital Clock and Queuing System",
-      image: "/images/projects/q4.avif",
+      image: "/images/projects/lkk.avif",
       
     },
 
