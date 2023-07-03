@@ -257,7 +257,7 @@ const ProjectDetail = () => {
       category: "Window-Intercoms-System",
       title: "Window Intercom System",
       description: "When glass, a security screen, or other such barriers make it difficult to speak normally, provide unambiguous communication. Every system has a hearing loop facility, which facilitates communication for users of hearing aids.",
-      image: "/images/projects/IN1.jpg",
+      image: "/images/projects/qwer.jpg",
       imageb: "/images/projects/yu.jpg",
       imagec: "/images/projects/IN3.jpg",
     },
