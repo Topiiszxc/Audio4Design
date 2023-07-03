@@ -83,7 +83,7 @@ const Faq = () => {
                 },
               },
               {
-                name: 'Our Clients',
+                name: 'Our Clients ',
                 onClick: () => {
                   setActiveFaq(randomFaqs[0]);
                 },

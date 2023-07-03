@@ -37,9 +37,9 @@ const ProjectDetail = () => {
       category: "Electrical-&-Mechanical",
       title: "Equipment Racks",
       description: "An enclosure or frame that is standardized for mounting many electronic equipment components.",
-      image: "/images/projects/ERS 3.jpg",
-      imageb: "/images/projects/ERS 4.jpg",
-      imagec: "/images/projects/ERS 2.jpg",
+      image: "/images/projects/rer.jpg",
+      imageb: "/images/projects/rerr.jpg",
+      imagec: "/images/projects/rerrr.jpg",
     },
     //Radio Systems
     {
@@ -66,7 +66,7 @@ const ProjectDetail = () => {
       id: "5",
       category: "Telephone-PABX-System",
       title: "Telephone & PABX System",
-      description: "A landing page for Products",
+      description: "Private automatic branch exchanges are switchboards that link various devices, such as telephones, fax machines, and answering machines, to the public telephone network and to one another.",
       image: "/images/projects/pipii.jpg",
       imageb: "/images/projects/PBX1.jpg",
       imagec: "/images/projects/PBX2.jpg",
@@ -110,7 +110,7 @@ const ProjectDetail = () => {
       title: "Paging System ",
       description: "Enables communication in one direction to a big audience.",
       image: "/images/projects/popo.jpg",
-      imageb: "/images/projects/TOA 2.jpg",
+      imageb: "/images/projects/ttt.jpg",
       imagec: "/images/projects/popooo.jpg",
     },
 
@@ -448,8 +448,8 @@ const ProjectDetail = () => {
       title: "Lighting Solution",
       description: "Luminaires, lighting architecture, and lighting control technology make up a smart lighting solution.",
       image: "/images/projects/ss3.jpg",
-      imageb: "/images/projects/ss4.jpg",
-      imagec: "/images/projects/ss5.jpg",
+      imageb: "/images/projects/zxxx.png",
+      imagec: "/images/projects/zxx.jpg",
     },
 
     {
